@@ -27,6 +27,12 @@ public class App {
         topo = pilha_pratos.peek();
         System.out.println("O elemento que está no topo é: " + topo);
 
+        //Verificar se a pilha esta vazia
+        Boolean vazio = pilha_pratos.isEmpty();
+        System.out.println("A pilha esta vazia: " +vazio);
+
+        //Imprimindo a pilha
+        System.out.println(pilha_pratos.toString());
 
         System.out.println("Utilizando Conceito LIFO (Ultimo a Entrar, Primeiro a Sair)");
 
